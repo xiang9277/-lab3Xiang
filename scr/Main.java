@@ -17,7 +17,7 @@ public class Main {
         MySQLCRUD  mysql = new MySQLCRUD ();
         MongoDB_CRUD mongo = new MongoDB_CRUD();
 
-        // INSERT
+
         mysql.insertCustomer(c1);
         mysql.insertCustomer(c2);
         mysql.insertCustomer(c3);
@@ -26,15 +26,15 @@ public class Main {
         mongo.insertCustomer(c2);
         mongo.insertCustomer(c3);
 
-        // READ
+
         mysql.readCustomers();
         mongo.readCustomers();
 
-        // UPDATE
+
         mysql.updateCustomer(1, 999);
         mongo.updateCustomer(1, 999);
 
-        // DELETE
+
         mysql.deleteCustomer(3);
         mongo.deleteCustomer(3);
     }

@@ -9,21 +9,18 @@
  */
 public class Customer {
 
-    /** The ID of the customer */
+
     private int id;
 
-    /** The name of the customer */
+
     private String name;
 
-    /** The email of the customer */
+
     private String email;
 
-    /** The balance of the customer */
+
     private double balance;
 
-    /**
-     * Constructor
-     */
     public Customer(int id, String name, String email, double balance) {
         this.id = id;
         this.name = name;
@@ -31,7 +28,7 @@ public class Customer {
         this.balance = balance;
     }
 
-    // Getters and Setters
+
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
