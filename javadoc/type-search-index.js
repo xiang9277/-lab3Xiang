@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"<Unnamed>","l":"Customer"},{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"MongoDB_CRUD"},{"p":"<Unnamed>","l":"MySQLCRUD"},{"l":"所有类和接口","u":"allclasses-index.html"}];updateSearchResults();
