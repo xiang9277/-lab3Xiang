@@ -1,96 +1,46 @@
 /**
- * Project: lab3YourLastName
- * Purpose Details:
- * Course: IST888
- * Author: Your Name
- * Date Developed: 2026-02-27
- * Last Date Changed: 2026-02-27
+ * Project: Lab3
+ * Purpose Details: Solo Lab3 Database Assignment
+ * Course: IST242
+ * Author: zizhou xiang
+ * Date Developed: 2026/2/26
+ * Last Date Changed: 2026/3/1
  * Rev: 1.0
  */
 public class Customer {
 
+    /** The ID of the customer */
     private int id;
 
-
+    /** The name of the customer */
     private String name;
 
-
+    /** The email of the customer */
     private String email;
 
+    /** The balance of the customer */
+    private double balance;
 
-    private String phone;
-
-
-    private String address;
-
-
-    public Customer() {}
-
-
-    public Customer(int id, String name, String email, String phone, String address) {
+    /**
+     * Constructor
+     */
+    public Customer(int id, String name, String email, double balance) {
         this.id = id;
         this.name = name;
         this.email = email;
-        this.phone = phone;
-        this.address = address;
+        this.balance = balance;
     }
 
+    // Getters and Setters
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
 
-    public int getId() {
-        return id;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-
-    public String getEmail() {
-        return email;
-    }
-
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-
-    public String getAddress() {
-        return address;
-    }
-
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-
-    @Override
-    public String toString() {
-        return "Customer{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                ", address='" + address + '\'' +
-                '}';
-    }
+    public double getBalance() { return balance; }
+    public void setBalance(double balance) { this.balance = balance; }
 }
